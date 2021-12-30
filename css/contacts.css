@@ -1,0 +1,45 @@
+.contacts {
+  position: relative;
+}
+
+.contacts:before {
+  content: "";
+  position: absolute;
+  top: -100px;
+  left: 0;
+  background: linear-gradient(180deg, #1b1a1b -13.35%, #370a37 86.65%);
+  width: 100%;
+  min-height: 629px;
+  z-index: -1;
+}
+
+.contacts__address {
+  max-width: 300px;
+}
+
+.contacts__info {
+  margin-bottom: 40px;
+}
+
+.contacts__place,
+.contacts__tel,
+.contacts__mail {
+  background-repeat: no-repeat;
+  background-position: left center;
+  padding-left: 60px;
+}
+
+.contacts__place {
+  background-image: url("../img/icons/location.svg");
+  margin-bottom: 36px;
+  max-width: 281px;
+}
+
+.contacts__tel {
+  background-image: url("../img/icons/phone.svg");
+  margin-bottom: 11px;
+}
+
+.contacts__mail {
+  background-image: url("../img/icons/envelope.svg");
+}
